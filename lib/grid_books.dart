@@ -23,7 +23,7 @@ class grid_books extends StatelessWidget {
      child: PrideandPrejudice(),
      decoration: BoxDecoration( //for the conatiner 
       color: Colors.white,
-      border: Border.all(color: Colors.black, width: 4), 
+      border: Border.all(color: Color.fromARGB(255, 124, 142, 197), width: 4), // Correct syntax
       borderRadius: BorderRadius.circular(10),
                                ),
              ),
@@ -33,7 +33,7 @@ class grid_books extends StatelessWidget {
      child: MobyDick(),
      decoration: BoxDecoration( //for the conatiner 
       color: Colors.white,
-      border: Border.all(color: Colors.black, width: 4), 
+      border: Border.all(color: Color.fromARGB(255, 124, 142, 197), width: 4), // Correct syntax
       borderRadius: BorderRadius.circular(10),
                                ),
              ),
@@ -43,7 +43,7 @@ class grid_books extends StatelessWidget {
      child: Frankenstein(),
      decoration: BoxDecoration( //for the conatiner 
       color: Colors.white,
-      border: Border.all(color: Colors.black, width: 4), // Correct syntax
+      border: Border.all(color: Color.fromARGB(255, 124, 142, 197), width: 4), // Correct syntax
       borderRadius: BorderRadius.circular(10),
                                ),
              ),
@@ -53,7 +53,7 @@ class grid_books extends StatelessWidget {
      child: TheGreatGatsby(),
      decoration: BoxDecoration( //for the conatiner 
       color: Colors.white,
-      border: Border.all(color: Colors.black, width: 4), // Correct syntax
+      border: Border.all(color: Color.fromARGB(255, 124, 142, 197), width: 4), // Correct syntax
       borderRadius: BorderRadius.circular(10),
                                ),
              ),
@@ -63,7 +63,7 @@ class grid_books extends StatelessWidget {
      child: AliceInWonderland(),
      decoration: BoxDecoration( //for the conatiner 
       color: Colors.white,
-      border: Border.all(color: Colors.black, width: 4), // Correct syntax
+      border: Border.all(color: Color.fromARGB(255, 124, 142, 197), width: 4), // Correct syntax
       borderRadius: BorderRadius.circular(10),
                                ),
              ),
@@ -73,7 +73,7 @@ class grid_books extends StatelessWidget {
      child: WarAndPeace(),
      decoration: BoxDecoration( //for the conatiner 
       color: Colors.white,
-      border: Border.all(color: Colors.black, width: 4), // Correct syntax
+      border: Border.all(color: Color.fromARGB(255, 124, 142, 197), width: 4), // Correct syntax
       borderRadius: BorderRadius.circular(10),
                                ),
              ),
