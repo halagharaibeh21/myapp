@@ -14,13 +14,19 @@ class PrideandPrejudice extends StatelessWidget {
         Text(bookBox.get('K_PrideAndPrejudice')!.genre,
             style: GoogleFonts.oswald(
               color: const Color.fromARGB(255, 45, 41, 41),
-              fontSize: 10,
+              fontSize: 12,
             )),
         ElevatedButton(
           onPressed: () {},
-          child: Text('More information'),
+          child: Text(
+            'More information',
+            style: TextStyle(color: Colors.black), // Font color changed to black
+          ),
           style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(fontSize: 8),
+            textStyle: TextStyle(fontSize: 10),
+            backgroundColor: Colors.grey, // Grayish color
+            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16), // Smaller button padding
+            minimumSize: Size(0, 0), // Smaller button size
           ),
         ),
       ],
@@ -38,13 +44,19 @@ class MobyDick extends StatelessWidget {
         Text(bookBox.get('K_MobyDick')!.genre,
             style: GoogleFonts.oswald(
               color: const Color.fromARGB(255, 45, 41, 41),
-              fontSize: 10,
+              fontSize: 12,
             )),
         ElevatedButton(
           onPressed: () {},
-          child: Text('More information'),
+          child: Text(
+            'More information',
+            style: TextStyle(color: Colors.black), // Font color changed to black
+          ),
           style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(fontSize: 8),
+            textStyle: TextStyle(fontSize: 10),
+            backgroundColor: Colors.grey, // Grayish color
+            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16), // Smaller button padding
+            minimumSize: Size(0, 0), // Smaller button size
           ),
         ),
       ],
@@ -62,13 +74,19 @@ class Frankenstein extends StatelessWidget {
         Text(bookBox.get('K_Frankenstein')!.genre,
             style: GoogleFonts.oswald(
               color: const Color.fromARGB(255, 45, 41, 41),
-              fontSize: 10,
+              fontSize: 12,
             )),
         ElevatedButton(
           onPressed: () {},
-          child: Text('More information'),
+          child: Text(
+            'More information',
+            style: TextStyle(color: Colors.black), // Font color changed to black
+          ),
           style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(fontSize: 8),
+            textStyle: TextStyle(fontSize: 10),
+            backgroundColor: Colors.grey, // Grayish color
+            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16), // Smaller button padding
+            minimumSize: Size(0, 0), // Smaller button size
           ),
         ),
       ],
@@ -86,13 +104,19 @@ class TheGreatGatsby extends StatelessWidget {
         Text(bookBox.get('K_TheGreatGatsby')!.genre,
             style: GoogleFonts.oswald(
               color: const Color.fromARGB(255, 45, 41, 41),
-              fontSize: 10,
+              fontSize: 12,
             )),
         ElevatedButton(
           onPressed: () {},
-          child: Text('More information'),
+          child: Text(
+            'More information',
+            style: TextStyle(color: Colors.black), // Font color changed to black
+          ),
           style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(fontSize: 8),
+            textStyle: TextStyle(fontSize: 10),
+            backgroundColor: Colors.grey, // Grayish color
+            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16), // Smaller button padding
+            minimumSize: Size(0, 0), // Smaller button size
           ),
         ),
       ],
@@ -110,13 +134,19 @@ class AliceInWonderland extends StatelessWidget {
         Text(bookBox.get('K_AliceInWonderland')!.genre,
             style: GoogleFonts.oswald(
               color: const Color.fromARGB(255, 45, 41, 41),
-              fontSize: 10,
+              fontSize: 12,
             )),
         ElevatedButton(
           onPressed: () {},
-          child: Text('More information'),
+          child: Text(
+            'More information',
+            style: TextStyle(color: Colors.black), // Font color changed to black
+          ),
           style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(fontSize: 8),
+            textStyle: TextStyle(fontSize: 10),
+            backgroundColor: Colors.grey, // Grayish color
+            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16), // Smaller button padding
+            minimumSize: Size(0, 0), // Smaller button size
           ),
         ),
       ],
@@ -134,13 +164,19 @@ class WarAndPeace extends StatelessWidget {
         Text(bookBox.get('K_WarAndPeace')!.genre,
             style: GoogleFonts.oswald(
               color: const Color.fromARGB(255, 45, 41, 41),
-              fontSize: 10,
+              fontSize: 12,
             )),
         ElevatedButton(
           onPressed: () {},
-          child: Text('More information'),
+          child: Text(
+            'More information',
+            style: TextStyle(color: Colors.black), // Font color changed to black
+          ),
           style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(fontSize: 8),
+            textStyle: TextStyle(fontSize: 10),
+            backgroundColor: Colors.grey, // Grayish color
+            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16), // Smaller button padding
+            minimumSize: Size(2, 2), 
           ),
         ),
       ],
