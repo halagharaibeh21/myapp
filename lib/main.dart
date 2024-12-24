@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:myapp/book.dart';
-import 'package:myapp/add_books.dart'; // Import your add_books.dart file
+import 'package:myapp/add_books.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/grid_books.dart';
 
@@ -12,7 +12,7 @@ void main() async {
   Hive.registerAdapter(bookAdapter());
   bookBox = await Hive.openBox<book>('mybook');
 
-  addBooksToBox(bookBox); // Add predefined books
+  addBooksToBox(bookBox);
 
   runApp(MyApp());
 }
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'My First App using flutter', //to identify your app.
+        title: 'My First App using flutter',
         home: scaffold_widget(),
         debugShowCheckedModeBanner: false);
   }
@@ -31,15 +31,15 @@ class scaffold_widget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 48, 49, 52),
+      backgroundColor: Color.fromARGB(255, 216, 219, 227),
       body: grid_books(),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 48, 49, 52),
+        backgroundColor: Color.fromARGB(255, 124, 142, 197),
         title: Text(
           "Book Store",
           style: GoogleFonts.oswald(
-            color: Colors.white,
-            fontSize: 24, // Larger font size
+            color: const Color.fromRGBO(255, 255, 255, 1),
+            fontSize: 24,
           ),
         ),
       ),
@@ -50,4 +50,4 @@ class scaffold_widget extends StatelessWidget {
               ))),
     );
   }
-} 
+}
